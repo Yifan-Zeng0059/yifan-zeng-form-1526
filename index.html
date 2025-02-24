@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Introduction to the HTML form</title>
+</head>
+
+<body>
+    <form>
+        <legend>Form Assignment</legend>
+        <div class="name">
+            <label for="fullname">Full name</label>
+            <input type="text" id="fullname">
+        </div>
+
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+        </div>
+
+        <div class="message">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+        </div>
+        <input type="button" value="Submit" id="submit-button">
+    </form>
+    <ul class="error"></ul>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
