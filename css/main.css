@@ -110,10 +110,6 @@ textarea:focus {
 
 /* Smartphone - up to 25rem */
 @media (max-width: 25rem) {
-    form {
-        padding: 1rem;
-    }
-
     input[type="text"],
     textarea,
     input[type="button"] {
